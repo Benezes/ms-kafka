@@ -1,4 +1,4 @@
-package br.com.mnz.productservice;
+package br.com.mnz.product;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

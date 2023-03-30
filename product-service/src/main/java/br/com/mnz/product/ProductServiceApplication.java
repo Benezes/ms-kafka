@@ -1,4 +1,4 @@
-package br.com.mnz.productservice;
+package br.com.mnz.product;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
