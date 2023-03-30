@@ -41,7 +41,8 @@ public class ProductController {
     }
 
     @PutMapping("/{productId}")
-    public ResponseEntity<ProductResponse> deleteProductById(@PathVariable(value = "productId") final UUID productId, @RequestBody ProductRequest productRequest) {
+    public ResponseEntity<ProductResponse> deleteProductById(@PathVariable(value = "productId") final UUID productId,
+                                                             @RequestBody ProductRequest productRequest) {
         return ResponseEntity.ok(productService.udpateProduct(productId, productRequest));
     }
 }
