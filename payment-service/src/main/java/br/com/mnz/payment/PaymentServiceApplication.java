@@ -1,4 +1,4 @@
-package com.gabriel.payment;
+package br.com.mnz.payment;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
