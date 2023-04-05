@@ -12,7 +12,8 @@ import org.springframework.web.reactive.function.client.WebClient;
 public class WebFluxCall {
 
     private final WebClient webClient;
-    public static final String PRODUCTS_API = "http://localhost:8081/api/products/";
+    private static final String PORT = "8080";
+    private static final String PRODUCTS_API = "http://localhost:" + PORT + "/api/products/";
 
     public ProductResponse getProductByName(final String productName) {
         log.info("Finding product: {}", productName);
