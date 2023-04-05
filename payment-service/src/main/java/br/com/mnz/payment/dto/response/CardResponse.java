@@ -1,5 +1,6 @@
 package br.com.mnz.payment.dto.response;
 
+import br.com.mnz.payment.models.CardModel;
 import lombok.Data;
 
 import java.io.Serial;
@@ -17,4 +18,11 @@ public class CardResponse implements Serializable {
     private String cardExpire;
     private String cardSecurityNumber;
 
+    public CardResponse(CardModel entity) {
+        this.cardId = entity.getCardId();
+        this.cardName = entity.getCardName();
+        this.cardNumber = entity.getCardNumber();
+        this.cardExpire = entity.getCardExpire();
+        this.cardSecurityNumber = entity.getCardSecurityNumber();
+    }
 }
