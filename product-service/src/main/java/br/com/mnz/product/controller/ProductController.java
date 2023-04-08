@@ -29,6 +29,11 @@ public class ProductController {
         return ResponseEntity.status(HttpStatus.CREATED).body(productService.createProduct(productRequest));
     }
 
+    @GetMapping("/{productId}")
+    public ResponseEntity<ProductResponse> getProductByName(@PathVariable(value = "productId") final UUID productId) {
+        return ResponseEntity.ok(productService.findProductById(productId));
+    }
+
     @GetMapping("/{productName}")
     public ResponseEntity<ProductResponse> getProductByName(@PathVariable(value = "productName") final String productName) {
         return ResponseEntity.ok(productService.findProductByName(productName));

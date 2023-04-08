@@ -59,4 +59,14 @@ public class ProductService {
         BeanUtils.copyProperties(productRequest, product.get(), "productId");
         return new ProductResponse(productRepository.save(product.get()));
     }
+
+    public ProductResponse findProductById(UUID productId) {
+        Optional<ProductModel> product = productRepository.findById(productId);
+
+        if (product.isEmpty()) {
+            throw new ProductNotFoundException("product id {" + productId + "} not found");
+        }
+
+        return new ProductResponse(product.get());
+    }
 }
