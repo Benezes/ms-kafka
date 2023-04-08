@@ -3,14 +3,8 @@
 Pproduct-service/src/test/java/br/com/mnz/product/service/ProductServiceTest.java,4\1\4190b877a623438f2c5a1fbe7783028c0ee4810f
 G
 payment-service/HELP.md,6\2\62b354bbd1930074e585e4a3f150986d1cdce0b3
-G
-product-service/pom.xml,f\c\fcf146007330bb14605a232d25428bbf6aa50b7b
-y
-Iproduct-service/src/main/java/br/com/mnz/product/models/ProductModel.java,3\7\37f6e5009f0360700b54930caaaff87627858251
 Ñ
 Tpayment-service/src/main/java/br/com/mnz/payment/configuration/KafkaAdminConfig.java,8\6\86def912f382a6902521f18294e63f72996dd170
-ç
-]payment-service/src/main/java/br/com/mnz/payment/configuration/JsonProducerFactoryConfig.java,b\4\b40c12fd865d9a0176fb224831c6e293c46b7d7a
 |
 Lproduct-service/src/main/java/br/com/mnz/product/service/ProductService.java,a\e\aea734a9003c29747fdfdc43ad346b4492047b83
 Å

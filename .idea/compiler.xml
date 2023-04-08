@@ -9,11 +9,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="product-service" />
         <module name="payment-service" />
+        <module name="logistic-service" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="logistic-service" options="-parameters" />
       <module name="payment-service" options="-parameters" />
       <module name="product-service" options="-parameters" />
     </option>
