@@ -5,11 +5,7 @@ G
 payment-service/HELP.md,6\2\62b354bbd1930074e585e4a3f150986d1cdce0b3
 Ñ
 Tpayment-service/src/main/java/br/com/mnz/payment/configuration/KafkaAdminConfig.java,8\6\86def912f382a6902521f18294e63f72996dd170
-|
-Lproduct-service/src/main/java/br/com/mnz/product/service/ProductService.java,a\e\aea734a9003c29747fdfdc43ad346b4492047b83
 Å
 Qpayment-service/src/main/java/br/com/mnz/payment/configuration/WebFluxConfig.java,3\b\3b1feb531f8f66b7c78be19922aa0699b538b9ad
 Ä
 Pproduct-service/src/main/java/br/com/mnz/product/dto/request/ProductRequest.java,7\6\76f08a8d8a18f0748ee0ceeebcab521ed51dfccf
-Ç
-Rproduct-service/src/main/java/br/com/mnz/product/dto/response/ProductResponse.java,7\5\75eb27a8997a5efb885f9289774bbe5831b8c791
