@@ -29,6 +29,7 @@ public class LogisticService {
 
             LogisticModel logisticModel = LogisticModel
                     .builder()
+                    .logisticId(UUID.randomUUID())
                     .paymentId(payment.getPaymentId())
                     .productId(payment.getProductId())
                     .build();

@@ -15,7 +15,7 @@ public class WebFluxCall {
 
     private final WebClient webClient;
     private static final String PORT = "8080";
-    private static final String PRODUCTS_API = "http://localhost:" + PORT + "/api/products/";
+    private static final String PRODUCTS_API = "http://localhost:" + PORT + "/api/products/id/";
 
     public ProductResponse getProductById(final UUID productId) {
         log.info("Finding product: {}", productId);
